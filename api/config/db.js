@@ -1,4 +1,4 @@
-const dbConnection = () => {
+export const dbConnection = () => {
     mongoose
       .connect(process.env.Mongo_URL)
       .then(() => {
